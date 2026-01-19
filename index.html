@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mente Activa | Ejercicios Cognitivos para Personas Mayores</title>
+
+  <!-- TailwindCSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- ================= HERO ================= -->
+  <section class="relative min-h-screen flex items-center justify-center">
+    <div class="absolute inset-0">
+      <img 
+        src="2tablet diver.png"
+        alt="Persona mayor disfrutando de una tablet"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-white/80"></div>
+    </div>
+
+    <div class="relative z-10 max-w-5xl px-6 text-center">
+      <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+        Mantén tu mente activa,<br class="hidden md:block">
+        a tu ritmo y sin complicaciones
+      </h1>
+      <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        Ejercicios cognitivos digitales pensados especialmente para personas mayores:
+        claros, amables y estimulantes.
+      </p>
+      <a href="#contacto"
+         class="inline-block bg-blue-600 text-white text-lg px-8 py-4 rounded-xl shadow-lg hover:bg-blue-700 transition">
+        Quiero saber más
+      </a>
+    </div>
+  </section>
+
+  <!-- ================= PROBLEMA ================= -->
+  <section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-3xl font-bold mb-6">
+          Tecnología pensada para personas reales
+        </h2>
+        <p class="text-gray-600 mb-4">
+          Muchas aplicaciones actuales resultan confusas, rápidas o poco amigables
+          para las personas mayores.
+        </p>
+        <p class="text-gray-600">
+          Esto genera frustración y abandono, cuando el objetivo debería ser disfrutar
+          y cuidar la mente.
+        </p>
+      </div>
+      <div>
+        <img src="2señores.png" alt="Personas mayores tranquilas"
+             class="rounded-2xl shadow-lg w-full"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SOLUCIÓN ================= -->
+  <section class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12">
+        Nuestra propuesta
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="bg-white p-8 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold mb-4">Fácil de usar</h3>
+          <p class="text-gray-600">
+            Sin menús complejos ni pasos innecesarios.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold mb-4">Personalizada</h3>
+          <p class="text-gray-600">
+            Adaptada a capacidades, intereses y ritmo personal.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold mb-4">Sin presión</h3>
+          <p class="text-gray-600">
+            Ejercicios tranquilos, motivadores y respetuosos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCIA ================= -->
+  <section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <img src="2interfaz app.png" alt="Interfaz de la aplicación"
+             class="rounded-2xl shadow-lg w-full"/>
+      </div>
+      <div>
+        <h2 class="text-3xl font-bold mb-6">
+          Una experiencia clara y humana
+        </h2>
+        <p class="text-gray-600 mb-4">
+          Diseñada para que cualquier persona pueda usarla con confianza,
+          incluso sin experiencia digital previa.
+        </p>
+        <p class="text-gray-600">
+          Cuidar la mente también puede ser sencillo y agradable.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= APOYO ================= -->
+  <section class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-3xl font-bold mb-6">
+          Acompañamiento y confianza
+        </h2>
+        <p class="text-gray-600">
+          La tecnología no sustituye a las personas, las acompaña.
+          Nuestra solución está pensada para generar seguridad y bienestar.
+        </p>
+      </div>
+      <div>
+        <img src="2ayudando.png" alt="Ayuda y acompañamiento"
+             class="rounded-2xl shadow-lg w-full"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACTO ================= -->
+  <section id="contacto" class="py-24 bg-blue-600 text-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">
+        ¿Te interesa este proyecto?
+      </h2>
+
+      <form
+        action="mailto:proyectoapp50@pm.me"
+        method="POST"
+        enctype="text/plain"
+        class="bg-white text-gray-800 p-10 rounded-2xl shadow-xl space-y-6"
+      >
+        <div>
+          <label class="block mb-2 font-semibold">Nombre</label>
+          <input type="text" name="nombre" required
+                 class="w-full p-4 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500"/>
+        </div>
+
+        <div>
+          <label class="block mb-2 font-semibold">Correo electrónico</label>
+          <input type="email" name="email" required
+                 class="w-full p-4 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500"/>
+        </div>
+
+        <div>
+          <label class="block mb-2 font-semibold">Mensaje</label>
+          <textarea name="mensaje" rows="5" required
+                    class="w-full p-4 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+
+        <button type="submit"
+                class="w-full bg-blue-600 text-white text-lg py-4 rounded-xl hover:bg-blue-700 transition">
+          Enviar mensaje
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-gray-900 text-gray-400 py-10">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <p class="font-semibold text-white mb-2">Proyecto Mente Activa</p>
+        <p>Ejercicios cognitivos digitales para personas mayores</p>
+        <p class="mt-2">
+          Contacto: <a href="mailto:proyectoapp50@pm.me" class="underline">proyectoapp50@pm.me</a>
+        </p>
+      </div>
+      <div class="flex justify-center md:justify-end">
+        <img src="2engranaje.jpg" alt="Innovación y mente"
+             class="w-32 opacity-80"/>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
